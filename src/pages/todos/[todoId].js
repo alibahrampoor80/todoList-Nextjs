@@ -7,7 +7,7 @@ const TodoPage = ({todo}) => {
     return <>
 
         <Layout>
-            <div className="container p-2 xl:max-w-screen-xl mx-auto flex ">
+            <div className="container p-2 xl:max-w-screen-xl mx-auto flex flex-col justify-center items-center">
                 <Link href={'/'}
                       className={'bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded  outline-none flex justify-center w-1/4 mb-4'}>Back</Link>
                 <div className="w-full max-w-screen-md mx-auto text-center bg-white p-2 md:p-4 rounded-xl">
