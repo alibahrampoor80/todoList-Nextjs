@@ -18,9 +18,7 @@ export default function Home({todos}) {
 
         axios.delete(`/api/todos/${id}`)
             .then(({data}) => {
-
                 setData(data.todos)
-
             }).catch(err => console.log(err))
     }
 
